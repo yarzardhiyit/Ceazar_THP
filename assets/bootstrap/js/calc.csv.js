@@ -23,17 +23,37 @@
                 })
                 .catch(error => console.error('Error fetching the CSV file:', error));
         }
+
+        window.onload = function() {
+            var redAlert = document.getElementById('red-alert');
+            var alertContainer = document.getElementById('alert-container');
+            // Check if red-alert exists and has content
+            if (redAlert && redAlert.textContent.trim() !== '') {
+                alertContainer.style.border = '0.5px solid rgb(191,18,19)';
+            } else {
+                // Hide the border if red-alert is empty
+                alertContainer.style.border = 'none';
+            }
+        };
         
         // Function to check the weight against the max weight of the selected country
         function checkWeight(maxWeights) {
             const selectedCountry = document.getElementById('country').value;
             const inputWeight = parseFloat(document.getElementById('weight').value);
             const maxWeight = maxWeights[selectedCountry];
+            const redAlert = document.getElementById('red-alert');
+            const alertContainer = document.getElementById('alert-container');
         
             if (inputWeight && inputWeight > maxWeight) {
-                alert('Warning: The inputted weight of ' + inputWeight + ' kg exceeds the maximum weight of ' + maxWeight + ' kg for ' + selectedCountry + '.');
+                redAlert.textContent = 'Warning: The inputted weight of ' + inputWeight + ' kg exceeds the maximum weight of ' + maxWeight + ' kg for ' + selectedCountry + '.';
+                alertContainer.style.border = '0.5px solid rgb(191,18,19)';
+            } else {
+                redAlert.textContent = '';
+                // Hide the border if the warning is not needed
+                alertContainer.style.border = 'none';
             }
         }
+        
         
         // Function to calculate and display the shipping cost
         function calculateCost() {
@@ -64,7 +84,8 @@
                                 document.getElementById('shipping-cost').textContent = price + " THB";
                                 // alert(`The shipping cost for ${inputWeight}kg to ${selectedCountry} (Zone ${zoneNumber}) is ${price}`);
                             } else {
-                                alert('Invalid weight or zone.');
+                                document.getElementById('red-alert').textContent = 'Invalid weight or zone.';
+                                //alert('Invalid weight or zone.');
                             }
                         }
                     });

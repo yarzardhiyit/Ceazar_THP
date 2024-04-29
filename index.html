@@ -35,6 +35,12 @@
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Insurance</label></div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Express Delivery</label></div>
                             <div class="w-100" style="margin-bottom: 25px;"></div>
+                            <div class="row">
+                                <div class="col" id="alert-container" style="border-radius: 5px;">
+                                    <div style="text-align: center;"><span id="red-alert" style="color: rgb(191,18,19);padding: 5px;"></span></div>
+                                </div>
+                            </div>
+                            <div class="w-100" style="margin-bottom: 25px;"></div>
                             <div style="text-align: center;"><button class="btn btn-dark" type="button" onclick="calculateCost()">Calculate Cost</button></div>
                         </div>
                         <div class="card-footer" style="padding-left: 16px;padding-right: 16px;"><label class="form-label">Estimated Shipping Cost: <span id="shipping-cost"></span></label></div>
