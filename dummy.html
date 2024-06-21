@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Cost Calculator</title>
+    <!-- Include Bootstrap CSS and Papa Parse library here -->
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body p-sm-5">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">ThaiPost</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">FedEx</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">UPS</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-4">DHL</a></li>
+                </ul>
+                <div class="tab-content">
+                    <!-- Tab panes for each carrier will go here -->
+                    <!-- Example for ThaiPost tab -->
+                    <div class="tab-pane active" role="tabpanel" id="tab-1">
+                        <label class="form-label" title="Select the destination country">Destination Country</label>
+                        <select id="country-ThaiPost" class="des-zone" title="Country selection for ThaiPost">
+                            <optgroup label="Select Country"></optgroup>
+                        </select>
+                        <label class="form-label" title="Enter the package weight in kilograms">Package Weight (kg)</label>
+                        <input type="number" id="weight-ThaiPost" class="shp-wgt" placeholder="Enter weight" title="Weight input for ThaiPost">
+                        <button class="btn btn-dark" type="button" onclick="calculateCost('ThaiPost')">Calculate Cost</button>
+                        <div id="red-alert-ThaiPost" class="alert"></div>
+                    </div>
+                    <!-- FedEx tab -->
+                    <div class="tab-pane" role="tabpanel" id="tab-2">
+                        <label class="form-label" title="Select the destination country">Destination Country</label>
+                        <select id="country-FedEx" class="des-zone" title="Country selection for FedEx">
+                            <optgroup label="Select Country"></optgroup>
+                        </select>
+                        <label class="form-label" title="Enter the package weight in kilograms">Package Weight (kg)</label>
+                        <input type="number" id="weight-FedEx" class="shp-wgt" placeholder="Enter weight" title="Weight input for FedEx">
+                        <button class="btn btn-dark" type="button" onclick="calculateCost('FedEx')">Calculate Cost</button>
+                        <div id="red-alert-FedEx" class="alert"></div>
+                    </div>
+                    <!-- Add additional tabs for UPS, DHL, etc. here -->
+                </div>
+                <div class="card-footer">
+                    <label class="form-label">Estimated Shipping Cost: <span id="shipping-cost"></span></label>
+                </div>                           
+        </div>
+    </div>
+
+    <!-- Include your JavaScript file here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"
+        integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script src="assets/bootstrap/js/calc.csv.js"></script>
+
+</body>
+</html>

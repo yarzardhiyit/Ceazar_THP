@@ -1,0 +1,207 @@
+No.,Destinations,Zone,Maximum weight (kilogram)
+1,Afghanistan,4,20
+2,Albania,7,20
+3,Algeria,8,20
+4,American Samoa,8,20
+5,Andorra,7,20
+6,Angola,8,20
+7,Anguilla,8,20
+8,Antigua & Barbuda,8,20
+9,Argentina,8,20
+10,Armenia,7,20
+11,Aruba,8,20
+12,Australia,21,20
+13,Austria,7,20
+14,Azerbaijan,7,20
+15,Bahama,8,20
+16,Bahrain,4,20
+17,Bangladesh,4,20
+18,Barbados,8,20
+19,Belarus,7,20
+20,Belgium,6,20
+21,Belize,8,20
+22,Benin,8,20
+23,Bermuda,8,20
+24,Bhutan,4,20
+25,Bolivia,8,20
+26,Bonaire,8,20
+27,Bosnia-Herzegovina,7,20
+28,Botswana,8,20
+29,Brazil,8,20
+30,British Virgin Islands,8,20
+31,Brunei,3,20
+32,Bulgaria,7,20
+33,Burkina Faso,8,20
+34,Burundi,8,20
+35,Cambodia,3,20
+36,Cameroon,8,20
+37,Canada,5,44
+38,Cape Verde,8,20
+39,Cayman Islands,8,20
+40,Chad,8,20
+41,Chile,8,20
+42,China (Excluding China South),23,20
+43,China (South),11,20
+44,Guangdong 510000-529999,11,20
+45,Fujian 350000-369999,11,20
+46,Colombia,8,20
+47,Congo,8,20
+48,Cook Islands,8,20
+49,Costa Rica,8,20
+50,Croatia,7,20
+51,Curacao,8,20
+52,Cyprus,7,20
+53,Czech Republic,7,20
+54,C™te D'ivoire (Ivory Coast),8,20
+55,Democratic Republic of the Congo,8,20
+56,Denmark,7,20
+57,Djibouti,8,20
+58,Dominica,8,20
+59,Dominican Republic,8,20
+60,East Timor,8,20
+61,Ecuador,8,20
+62,Egypt,4,20
+63,El Salvador,8,20
+64,Eritrea,8,20
+65,Estonia,7,20
+66,Ethiopia,8,20
+67,Faeroe Islands,7,20
+68,Fiji,8,20
+69,Finland,7,20
+70,France,6,20
+71,French Guiana,8,20
+72,French Polynesia,8,20
+73,Gabon,8,20
+74,Gambia,8,20
+75,Georgia,7,20
+76,Germany,6,20
+77,Ghana,8,20
+78,Gibraltar,7,20
+79,Greece,7,20
+80,Greenland,7,20
+81,Grenada,8,20
+82,Guadeloupe,8,20
+83,Guam,8,20
+84,Guatemala,8,20
+85,Guinea,8,20
+86,Guyana,8,20
+87,Haiti,8,20
+88,Honduras,8,20
+89,"Hong Kong SAR, China",22,20
+90,Hungary,7,20
+91,Iceland,7,20
+92,India,15,20
+93,Indonesia,20,20
+94,Iraq,4,20
+95,Ireland,7,20
+96,Israel,7,20
+97,Italy,6,20
+98,Jamaica,8,20
+99,Japan,16,20
+100,Jordan,4,20
+101,Kazakhstan,7,20
+102,Kenya,8,20
+103,Kuwait,4,20
+104,Kyrgyzstan,7,20
+105,Laos,3,20
+106,Latvia,7,20
+107,Lebanon,4,20
+108,Lesotho,8,20
+109,Liberia,8,20
+110,Libya,8,20
+111,Liechtenstein,7,20
+112,Lithuania,7,20
+113,Luxembourg,7,20
+114,"Macau SAR, China",1,20
+115,Macedonia,7,20
+116,Madagascar,8,20
+117,Malawi,8,20
+118,Malaysia,17,20
+119,Maldives,4,20
+120,Mali,8,20
+121,Malta,7,20
+122,Marshall Islands,8,20
+123,Martinique,8,20
+124,Mauritania,8,20
+125,Mauritius,8,20
+126,Mexico,5,44
+127,Micronesia,8,20
+128,Monaco,7,20
+129,Mongolia,3,20
+130,Monserrat,8,20
+131,Montenegro,7,20
+132,Morocco,8,20
+133,Mozambique,8,20
+134,Namibia,8,20
+135,Nepal,4,20
+136,Netherlands,6,20
+137,Netherlands Antilles,8,20
+138,New Caledonia,8,20
+139,New Zealand,2,20
+140,Nicaragua,8,20
+141,Niger,8,20
+142,Nigeria,8,20
+143,Northern Mariana Islands,8,20
+144,Norway,7,20
+145,Oman,4,20
+146,Pakistan,4,20
+147,Palau,8,20
+148,Palestine Autonomous,4,20
+149,Panama,8,20
+150,Papua New Guinea,8,20
+151,Paraguay,8,20
+152,Peru,8,20
+153,Phillipines,19,20
+154,Poland,7,20
+155,Portugal,7,20
+156,Qatar,4,20
+157,Republic of Moldova,7,20
+158,Romania,7,20
+159,Russian Federation,7,20
+160,Rwanda,8,20
+161,RŽunion,8,20
+162,Saint Lucia,8,20
+163,Samoa,8,20
+164,Saudi Arabia,4,20
+165,Senegal,8,20
+166,Serbia,7,20
+167,Seychelles,8,20
+168,Singapore,25,20
+169,Slovakia,7,20
+170,Slovenia,7,20
+171,South Africa,4,20
+172,South Korea,26,20
+173,Spain,6,20
+174,Sri Lanka,4,20
+175,St. Kitts and Nevis,8,20
+176,St. Maarten,8,20
+177,St. Martin,8,20
+178,St. Vincent & the Grenadines,8,20
+179,Suriname,8,20
+180,Swaziland,8,20
+181,Sweden,7,20
+182,Switzerland,7,20
+183,Syrian Arab Republic,4,20
+184,Taiwan,24,20
+185,Togo,8,20
+186,Tonga,8,20
+187,Trinidad & Tobago,8,20
+188,Tunisia,8,20
+189,Turkey,7,20
+190,Turks & Caicos Islands,8,20
+191,U.S.A.,5,44
+192,U.S. Virgin Islands,8,20
+193,Uganda,8,20
+194,Ukraine,7,20
+195,United Arab Emirates,4,20
+196,United Kingdom (Great Britain),6,20
+197,United Republic of Tanzania,8,20
+198,Uruguay,8,20
+199,Uzbekistan,7,20
+200,Vanuatu,8,20
+201,Venezuela,8,20
+202,Vietnam,14,20
+203,Wallis & Futuna,8,20
+204,Yemen,4,20
+205,Zambia,8,20
+206,Zimbabwe,8,20
