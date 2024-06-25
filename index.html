@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Ceazar x ThaiPost</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <style>
+        /* Additional CSS to ensure the card is centered */
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -172,10 +180,11 @@
     <script src="assets/js/freightLogic.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function(){
-          $("col-md-8 col-lg-6 col-xl-5 col-xxl-4").css("center-block")   
-      });
-      </script>
+            $(document).ready(function(){
+            // Corrected jQuery selector and added 'center-block' class
+            $(".col-md-8.col-lg-6.col-xl-5.col-xxl-4").addClass("center-block");
+        });
+    </script>
 </body>
 
 </html>
