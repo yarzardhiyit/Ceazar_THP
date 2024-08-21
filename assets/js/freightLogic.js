@@ -80,7 +80,7 @@ const carrierZones = {
     'Italy*': 4,
     'Japan': 11,
     'Kenya': 13,
-    'South Korea': 2,
+    'Korea (Rep.)': 2,
     'Kuwait': 11,
     'Laos': 1,
     'Lebanon': 11,
